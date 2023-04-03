@@ -1,0 +1,193 @@
+{
+    "eduBook1": {
+      "title": "To Kill a Mockingbird",
+      "image": "book1.jpg",
+      "description": "A classic novel about racism and injustice in the American South.",
+      "author": "Harper Lee",
+      "price": "$9.99"
+    },
+    "eduBook2": {
+      "title": "The Catcher in the Rye",
+      "image": "book2.jpg",
+      "description": "A novel about teenage alienation and rebellion.",
+      "author": "J.D. Salinger",
+      "price": "$8.99"
+    },
+    "eduBook3": {
+      "title": "1984",
+      "image": "book3.jpg",
+      "description": "A dystopian novel about totalitarianism and government control.",
+      "author": "George Orwell",
+      "price": "$7.99"
+    },
+    "eduBook4": {
+      "title": "Brave New World",
+      "image": "book4.jpg",
+      "description": "A dystopian novel about a genetically engineered society.",
+      "author": "Aldous Huxley",
+      "price": "$6.99"
+    },
+    "eduBook5": {
+      "title": "Pride and Prejudice",
+      "image": "book5.jpg",
+      "description": "A classic novel about love and marriage in Regency England.",
+      "author": "Jane Austen",
+      "price": "$9.99"
+    },
+    "eduBook6": {
+      "title": "The Great Gatsby",
+      "image": "book6.jpg",
+      "description": "A novel about the American Dream and the corrupting influence of wealth.",
+      "author": "F. Scott Fitzgerald",
+      "price": "$10.99"
+    },
+    "eduBook7": {
+      "title": "One Hundred Years of Solitude",
+      "image": "book7.jpg",
+      "description": "A magical realist novel about the history of the Buendía family.",
+      "author": "Gabriel García Márquez",
+      "price": "$12.99"
+    },
+    "eduBook8": {
+      "title": "Beloved",
+      "image": "book8.jpg",
+      "description": "A novel about slavery and its aftermath in the United States.",
+      "author": "Toni Morrison",
+      "price": "$11.99"
+    },
+    "eduBook9": {
+      "title": "The Color Purple",
+      "image": "book9.jpg",
+      "description": "A novel about the lives of African American women in the South.",
+      "author": "Alice Walker",
+      "price": "$8.99"
+    },
+    "religiousBk1": {
+      "title": "The Adventures of Huckleberry Finn",
+      "image": "book10.jpg",
+      "description": "A novel about a boy's journey down the Mississippi River.",
+      "author": "Mark Twain",
+      "price": "$7.99"
+    },
+    "religiousBk2": {
+      "title": "Heart of Darkness",
+      "image": "book11.jpg",
+      "description": "A novella about imperialism and the darkness of the human soul.",
+      "author": "Joseph Conrad",
+      "price": "$5.99"
+    },
+    "religiousBk3": {
+      "title": "The Picture of Dorian Gray",
+      "image": "book12.jpg",
+      "description": "A novel about a man's descent into depravity and hedonism.",
+      "author": "Oscar Wilde",
+      "price": "$6.99"
+    },
+    "religiousBk4": {
+        "title": "The Sound and the Fury",
+        "image": "book13.jpg",
+        "description": "A novel about the decline of a Southern aristocratic family.",
+        "author": "William Faulkner",
+        "price": "$10.99"
+        },
+        "religiousBk5": {
+        "title": "The Old Man and the Sea",
+        "image": "book14.jpg",
+        "description": "A novella about an old fisherman's struggle with a giant marlin.",
+        "author": "Ernest Hemingway",
+        "price": "$4.99"
+        },
+        "religiousBk6": {
+        "title": "The Brothers Karamazov",
+        "image": "book15.jpg",
+        "description": "A novel about the moral struggles of three brothers in 19th-century Russia.",
+        "author": "Fyodor Dostoevsky",
+        "price": "$13.99"
+        },
+        "religiousBk7": {
+        "title": "Crime and Punishment",
+        "image": "book16.jpg",
+        "description": "A novel about a young man's moral dilemma after committing a murder.",
+        "author": "Fyodor Dostoevsky",
+        "price": "$9.99"
+        },
+        "religiousBk8": {
+        "title": "War and Peace",
+        "image": "book17.jpg",
+        "description": "A novel about the lives of several aristocratic families during the Napoleonic Wars.",
+        "author": "Leo Tolstoy",
+        "price": "$15.99"
+        },
+        "religiousBk9": {
+        "title": "Anna Karenina",
+        "image": "book18.jpg",
+        "description": "A novel about an unhappy marriage and the consequences of adultery.",
+        "author": "Leo Tolstoy",
+        "price": "$12.99"
+        },
+        "pdBook1": {
+        "title": "Moby-Dick",
+        "image": "book19.jpg",
+        "description": "A novel about a captain's obsession with hunting a white whale.",
+        "author": "Herman Melville",
+        "price": "$11.99"
+        },
+        "pdBook2": {
+        "title": "The Scarlet Letter",
+        "image": "book20.jpg",
+        "description": "A novel about a woman's punishment for adultery in 17th-century Massachusetts.",
+        "author": "Nathaniel Hawthorne",
+        "price": "$8.99"
+        },
+        "pdBook3": {
+        "title": "Frankenstein",
+        "image": "book21.jpg",
+        "description": "A novel about a scientist's creation of a living being and the consequences that follow.",
+        "author": "Mary Shelley",
+        "price": "$9.99"
+        },
+        "pdBook4": {
+        "title": "Jane Eyre",
+        "image": "book22.jpg",
+        "description": "A novel about a young woman's struggles with love, independence, and morality.",
+        "author": "Charlotte Bronte",
+        "price": "$10.99"
+        },
+        "pdBook5": {
+        "title": "Wuthering Heights",
+        "image": "book23.jpg",
+        "description": "A novel about the doomed love between Catherine and Heathcliff.",
+        "author": "Emily Bronte",
+        "price": "$9.99"
+        },
+        "pdBook6": {
+        "title": "The Count of Monte Cristo",
+        "image":"book24.jpg",
+        "description": "A novel about a man's quest for revenge after being wrongly imprisoned.",
+        "author": "Alexandre Dumas",
+        "price": "$11.99"
+        },
+        "pdBook7": {
+        "title": "To Kill a Mockingbird",
+        "image": "book25.jpg",
+        "description": "A novel about racial injustice in a small town in Alabama during the 1930s.",
+        "author": "Harper Lee",
+        "price": "$8.99"
+        },
+        "pdBook8": {
+        "title": "The Great Gatsby",
+        "image": "book26.jpg",
+        "description": "A novel about the decadence and excess of the Jazz Age.",
+        "author": "F. Scott Fitzgerald",
+        "price": "$7.99"
+        },
+        "pdBook9": {
+        "title": "One Hundred Years of Solitude",
+        "image": "book27.jpg",
+        "description": "A novel about the Buendia family and their mythical town of Macondo.",
+        "author": "Gabriel Garcia Marquez",
+        "price": "$12.99"
+        }
+    }
+
+  
