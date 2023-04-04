@@ -21,6 +21,67 @@
       .hide {
         display: none;
       }
+
+      /* Categories section */
+
+      .category_container {
+        width: 99vw;
+        flex-direction: column;
+        display: flex;
+        margin: 4rem auto;
+        gap: 1rem;
+      }
+      #card-section {
+        padding: 50px;
+        width: 98%;
+        display: flex;
+        gap: 2rem;
+      }
+      .card {
+        border: 1px solid #ddd;
+        box-shadow: 0px 0px 5px #ccc;
+        margin: 10px;
+        padding: 20px;
+        text-align: center;
+        height: max-content;
+        position: relative;
+      }
+
+      .card img {
+        width: 500px;
+        height: 500px;
+        object-fit: cover;
+      }
+      .card h2 {
+        margin-top: 10px;
+        font-size: 24px;
+      }
+      .card p {
+        margin-top: 10px;
+        font-size: 16px;
+      }
+      .card button {
+        margin-top: 20px;
+        background-color: #2196f3;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      /* Education page */
+
+      .education-intro {
+        width: 60vw;
+      }
+
+      @media screen and (max-width: 800px) {
+        .category_container,
+        #card-section {
+          flex-direction: column;
+        }
+      }
     </style>
     <!-- basic -->
     <meta charset="utf-8" />
@@ -306,7 +367,7 @@
       </h1>
       <div id="card-section">
         <div class="card">
-          <a href="">
+          <a href="education.html">
             <img src="images/covers/education.jpeg" alt="Card 1 Image" />
           </a>
           <div class="overlay">
@@ -314,8 +375,7 @@
           </div>
         </div>
         <div class="card">
-          <a href="">
-
+          <a href="fiction.html">
             <img src="images/covers/fiction.jpeg" alt="Card 1 Image" />
           </a>
           <div class="overlay">
@@ -323,8 +383,7 @@
           </div>
         </div>
         <div class="card">
-          <a href="">
-
+          <a href="love.html">
             <img src="images/covers/love.jpeg" alt="Card 1 Image" />
           </a>
           <div class="overlay">
@@ -334,8 +393,7 @@
       </div>
       <div id="card-section">
         <div class="card">
-          <a href="">
-
+          <a href="poem.html">
             <img src="images/covers/poems.jpeg" alt="Card 1 Image" />
           </a>
           <div class="overlay">
@@ -343,8 +401,7 @@
           </div>
         </div>
         <div class="card">
-          <a href="">
-
+          <a href="history.html">
             <img src="images/covers/history.jpeg" alt="Card 1 Image" />
           </a>
           <div class="overlay">
@@ -352,8 +409,7 @@
           </div>
         </div>
         <div class="card">
-          <a href="">
-
+          <a href="manga.html">
             <img src="images/covers/manga.jpeg" alt="Card 1 Image" />
           </a>
           <div class="overlay">
@@ -364,8 +420,7 @@
 
       <div id="card-section">
         <div class="card">
-          <a href="">
-
+          <a href="comedy.html">
             <img src="images/covers/comedy.png" alt="Card 1 Image" />
           </a>
           <div class="overlay">
@@ -374,7 +429,6 @@
         </div>
         <div class="card">
           <a href="tragedy.html">
-
             <img src="images/covers/tragedy.jpeg" alt="Card 1 Image" />
           </a>
           <div class="overlay">
@@ -383,8 +437,7 @@
         </div>
         <div class="card">
           <a href="computing.html">
-
-            <img src="images/covers/tragedy.jpeg" alt="Card 1 Image" />
+            <img src="images/computer-img.png" alt="Card 1 Image" />
           </a>
           <div class="overlay">
             <h2 class="">COMPUTING</h2>
@@ -395,7 +448,6 @@
       <div class="loader_main mb-5">
         <div class="loader"></div>
       </div>
-
     </div>
     <!-- footer section start -->
     <div class="footer_section layout_padding">

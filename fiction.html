@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <!-- Internal css -->
+    <!-- Internal CSS -->
     <style>
       #signin_btn,
       #signout_btn {
@@ -21,7 +21,33 @@
       .hide {
         display: none;
       }
+      #education-intro {
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: 4rem auto;
+      }
+
+      #promotional-gifs {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px 0;
+      }
+
+      #promotional-gifs img {
+        width: 300px;
+        height: 200px;
+      }
+
+      @media screen and (max-width: 900px) {
+        #education-intro {
+          flex-direction: column;
+          width: 95%;
+        }
+      }
     </style>
+
     <!-- basic -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -30,7 +56,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <!-- site metas -->
-    <title>Jewellery</title>
+    <title>Fiction Books</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -299,27 +325,55 @@
       <!-- banner section end -->
     </div>
     <!-- banner bg main end -->
-    <!-- jewellery  section start -->
-    <div class="jewellery_section">
-      <div
-        id="jewellery_main_slider"
-        class="carousel slide"
-        data-ride="carousel"
-      >
+    <!-- education section start -->
+    <div id="education-intro">
+      <div class="cont">
+        <h2>Introduction to Education</h2>
+        <p>
+          Welcome to our educational books category! Here, you will find a vast
+          collection of books that aim to broaden your knowledge, sharpen your
+          skills, and help you achieve your academic and personal goals. Our
+          carefully curated selection of books covers a wide range of subjects,
+          from science, history, and mathematics to literature, philosophy, and
+          art. Whether you are a student, a teacher, or a lifelong learner, we
+          have something for you. So, browse our collection and embark on a
+          journey of discovery and enlightenment.
+        </p>
+      </div>
+      <div id="promotional-gifs">
+        <iframe
+          src="https://giphy.com/embed/K0zrOsxDm6brPTlbZg"
+          width="480"
+          height="345"
+          frameborder="0"
+          class="giphy-embed"
+          allowfullscreen
+        ></iframe>
+        <p>
+          <a
+            href="https://giphy.com/gifs/RiteKit-text-to-image-api-K0zrOsxDm6brPTlbZg"
+            >via GIPHY</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <div class="fashion_section">
+      <div id="main_slider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container">
-              <h1 class="fashion_taital">Personal Development Books</h1>
+              <h1 class="fashion_taital">Fictional Books</h1>
               <div class="fashion_section_2">
                 <div class="row">
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">pdBook1</h4>
+                      <h4 class="shirt_text">Indulgently Pulptastic</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="pdBook1" />
+                        <img src="images/fictions/25 Indulgently Pulptastic Book Covers From Sci-Fi Legend Jack Vance.jpeg" id="eduBook1" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -329,12 +383,12 @@
                   </div>
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">pdBook2</h4>
+                      <h4 class="shirt_text">Denise Glover</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="pdBook2" />
+                        <img src="images/fictions/75 Stunning Designs for Fiction Book Cover Design Inspiration.jpeg" id="eduBook2" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -344,12 +398,12 @@
                   </div>
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">pdBook3</h4>
+                      <h4 class="shirt_text">Bantam</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="pdBook3" />
+                        <img src="images/fictions/bantam a1731.jpeg " id="eduBook3" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -363,17 +417,17 @@
           </div>
           <div class="carousel-item">
             <div class="container">
-              <h1 class="fashion_taital">Personal Development Books</h1>
+              <h1 class="fashion_taital">Fiction books</h1>
               <div class="fashion_section_2">
                 <div class="row">
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">pdBook4</h4>
+                      <h4 class="shirt_text">The Halloween</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="pdBook4" />
+                        <img src="images/fictions/Halloween Reading_ Definitive Guide to Recent Horror Books.jpeg" id="eduBook4" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -383,12 +437,12 @@
                   </div>
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">pdBook5</h4>
+                      <h4 class="shirt_text">Inception</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="pdBook5" />
+                        <img src="images/fictions/Inception Novel Cover by bigoldtoe on DeviantArt.jpeg" id="eduBook5" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -398,12 +452,12 @@
                   </div>
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">pdBook6</h4>
+                      <h4 class="shirt_text">The 1984 Penguin</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="pdBook6" />
+                        <img src="images/fictions/nineteen eighty-four penguin book.jpeg" id="eduBook6" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -417,17 +471,17 @@
           </div>
           <div class="carousel-item">
             <div class="container">
-              <h1 class="fashion_taital">Personal Development Books</h1>
+              <h1 class="fashion_taital">Fiction Books</h1>
               <div class="fashion_section_2">
                 <div class="row">
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">pdBook7</h4>
+                      <h4 class="shirt_text">Silence Observed</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="pdBook7" />
+                        <img src="images/fictions/Silence Observed.jpeg" id="eduBook7" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -437,12 +491,12 @@
                   </div>
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">pdBook8</h4>
+                      <h4 class="shirt_text">Illusion of Simplicity</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="pdBook8" />
+                        <img src="images/fictions/The 103 Best Book Covers of 2022.png" id="eduBook8" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -452,12 +506,12 @@
                   </div>
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">pdBook9</h4>
+                      <h4 class="shirt_text">Wilder Girls</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="pdBook9" />
+                        <img src="images/fictions/Wilder Girls by Rory Power_ 9780525645610 _ PenguinRandomHouse_com_ Books.jpeg" id="eduBook9" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -472,7 +526,7 @@
         </div>
         <a
           class="carousel-control-prev"
-          href="#jewellery_main_slider"
+          href="#main_slider"
           role="button"
           data-slide="prev"
         >
@@ -480,20 +534,17 @@
         </a>
         <a
           class="carousel-control-next"
-          href="#jewellery_main_slider"
+          href="#main_slider"
           role="button"
           data-slide="next"
         >
           <i class="fa fa-angle-right"></i>
         </a>
-        <div class="loader_main">
-          <div class="loader"></div>
-        </div>
       </div>
     </div>
-    <!-- jewellery  section end -->
+    <!-- fashion section end -->
     <!-- footer section start -->
-    <div class="footer_section layout_padding">
+    <div class="footer_section layout_padding" style="margin-top: 20rem;">
       <div class="container">
         <div class="footer_logo">
           <a href="index.html"><img src="images/footer-logo.png" /></a>
@@ -553,6 +604,5 @@
       }
     </script>
     <script src="ourScript.js"></script>
-
   </body>
 </html>

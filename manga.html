@@ -21,7 +21,33 @@
       .hide {
         display: none;
       }
+      #education-intro {
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        width: 80%;
+        margin: 4rem auto;
+      }
+
+      #promotional-gifs {
+        display: flex;
+        justify-content: space-around;
+        margin: 50px 0;
+      }
+
+      #promotional-gifs img {
+        width: 300px;
+        height: 200px;
+      }
+
+      @media screen and (max-width: 900px) {
+        #education-intro {
+          flex-direction: column;
+          width: 95%;
+        }
+      }
     </style>
+
     <!-- basic -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -30,7 +56,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
     <!-- site metas -->
-    <title>Electronic</title>
+    <title>Manga</title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta name="author" content="" />
@@ -299,27 +325,55 @@
       <!-- banner section end -->
     </div>
     <!-- banner bg main end -->
-    <!-- electronic section start -->
+    <!-- education section start -->
+    <div id="education-intro">
+      <div class="cont">
+        <h2>Introduction to Manga</h2>
+        <p>
+          Welcome to our Manga books category! Here, you will find a vast
+          collection of books that aim to broaden your knowledge, sharpen your
+          skills, and help you achieve your academic and personal goals. Our
+          carefully curated selection of books covers a wide range of subjects,
+          from science, history, and mathematics to literature, philosophy, and
+          art. Whether you are a student, a teacher, or a lifelong learner, we
+          have something for you. So, browse our collection and embark on a
+          journey of discovery and enlightenment.
+        </p>
+      </div>
+      <div id="promotional-gifs">
+        <iframe
+          src="https://giphy.com/embed/K0zrOsxDm6brPTlbZg"
+          width="480"
+          height="345"
+          frameborder="0"
+          class="giphy-embed"
+          allowfullscreen
+        ></iframe>
+        <p>
+          <a
+            href="https://giphy.com/gifs/RiteKit-text-to-image-api-K0zrOsxDm6brPTlbZg"
+            >via GIPHY</a
+          >
+        </p>
+      </div>
+    </div>
+
     <div class="fashion_section">
-      <div
-        id="electronic_main_slider"
-        class="carousel slide"
-        data-ride="carousel"
-      >
+      <div id="main_slider" class="carousel slide" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <div class="container">
-              <h1 class="fashion_taital">Personal Development Books</h1>
+              <h1 class="fashion_taital">Manga Books</h1>
               <div class="fashion_section_2">
                 <div class="row">
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">religiousBk1</h4>
+                      <h4 class="shirt_text">Making Friends</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="religiousBk1" />
+                        <img src="images/manga/Great Kids' Graphic Novels for Reluctant Readers _ Alpha Mom.jpeg" id="eduBook1" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -329,12 +383,12 @@
                   </div>
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">religiousBk2</h4>
+                      <h4 class="shirt_text">Hinges</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="religiousBk2" />
+                        <img src="images/manga/Hinges Book 1_  Clockwork City HC from The Storefront.jpeg" id="eduBook2" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -344,12 +398,12 @@
                   </div>
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">religiousBk3</h4>
+                      <h4 class="shirt_text">Hope & Red</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="religiousBk3" />
+                        <img src="images/manga/Hope & Red.jpeg" id="eduBook3" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -363,17 +417,17 @@
           </div>
           <div class="carousel-item">
             <div class="container">
-              <h1 class="fashion_taital">Personal Development Books</h1>
+              <h1 class="fashion_taital">Manga Books</h1>
               <div class="fashion_section_2">
                 <div class="row">
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">religiousBk4</h4>
+                      <h4 class="shirt_text">Naruto</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="religiousBk4" />
+                        <img src="images/manga/Naruto, Kakashi, Pain.jpeg" id="eduBook4" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -383,12 +437,12 @@
                   </div>
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">religiousBk5</h4>
+                      <h4 class="shirt_text">Strange Worlds</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="religiousBk5" />
+                        <img src="images/manga/Strange Worlds 08 (Avon Periodicals) - Comic Book Plus.jpeg" id="eduBook5" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -398,12 +452,12 @@
                   </div>
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">religiousBk6</h4>
+                      <h4 class="shirt_text">Cofin Bound</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="religiousBk6" />
+                        <img src="images/manga/The 23 Best Comic Books & Graphic Novels Of 2019.jpeg" id="eduBook6" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -417,17 +471,17 @@
           </div>
           <div class="carousel-item">
             <div class="container">
-              <h1 class="fashion_taital">Religious Books</h1>
+              <h1 class="fashion_taital">Manga Books</h1>
               <div class="fashion_section_2">
                 <div class="row">
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">religiousBk7</h4>
+                      <h4 class="shirt_text">The Conjurers</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="religiousBk7" />
+                        <img src="images/manga/The Conjurers #3_ Fight of the Fallen.jpeg" id="eduBook7" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -437,12 +491,12 @@
                   </div>
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">religiousBk8</h4>
+                      <h4 class="shirt_text">The Edge of In Between</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="religiousBk8" />
+                        <img src="images/manga/The Edge of In Between.png" id="eduBook8" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -452,12 +506,12 @@
                   </div>
                   <div class="col-lg-4 col-sm-4">
                     <div class="box_main">
-                      <h4 class="shirt_text">religiousBk9</h4>
+                      <h4 class="shirt_text">Sakam To Days</h4>
                       <p class="price_text">
                         Start Price <span style="color: #262626">$ 100</span>
                       </p>
                       <div class="jewellery_img">
-                        <img src="images/jhumka-img.png" id="religiousBk9" />
+                        <img src="images/manga/Volume 6.png" id="eduBook9" />
                       </div>
                       <div class="btn_main">
                         <div class="buy_bt"><a href="#">Buy Now</a></div>
@@ -472,7 +526,7 @@
         </div>
         <a
           class="carousel-control-prev"
-          href="#electronic_main_slider"
+          href="#main_slider"
           role="button"
           data-slide="prev"
         >
@@ -480,7 +534,7 @@
         </a>
         <a
           class="carousel-control-next"
-          href="#electronic_main_slider"
+          href="#main_slider"
           role="button"
           data-slide="next"
         >
@@ -488,9 +542,9 @@
         </a>
       </div>
     </div>
-    <!-- electronic section end -->
+    <!-- fashion section end -->
     <!-- footer section start -->
-    <div class="footer_section layout_padding">
+    <div class="footer_section layout_padding" style="margin-top: 20rem;">
       <div class="container">
         <div class="footer_logo">
           <a href="index.html"><img src="images/footer-logo.png" /></a>
